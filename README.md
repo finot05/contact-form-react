@@ -16,7 +16,18 @@ This is a simple contact form built using React and the `useForm` hook from `rea
 - Message (required)
 
 
-## 🚀 How to Use
+## Preview
+
+<img width="500" alt="Form Errors" src="https://github.com/yourname/yourrepo/assets/image-id-1" />
+<p>Shows required fields warning.</p>
+
+<img width="500" alt="Email Validation" src="https://github.com/yourname/yourrepo/assets/image-id-2" />
+<p>Shows that email must be valid.</p>
+
+<img width="500" alt="Successful Submit" src="https://github.com/yourname/yourrepo/assets/image-id-3" />
+<p>Submit handler is triggered successfully.</p>
+
+## How to Use
 
 1. Clone the repository:
    ```bash
@@ -32,13 +43,3 @@ cd To-do-List
 npm install
 npm run dev
 
-## Preview
-
-<img width="600" alt="Form Validation - All fields required" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/UNIQUE_IMAGE_ID" />
-<p>This shows that all the 3 fields are required when trying to submit without filling them.</p>
-
-<img width="600" alt="Invalid Email Warning" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/ANOTHER_IMAGE_ID" />
-<p>This shows that the email must be valid.</p>
-
-<img width="600" alt="Submit Button Works" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/ANOTHER_IMAGE_ID_2" />
-<p>This shows the submit button handler is working.</p>
