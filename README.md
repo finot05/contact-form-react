@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# Contact Form (React + react-hook-form)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple contact form built using React and the `useForm` hook from `react-hook-form`. It demonstrates real-time validation and responsive styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React
+- Uses `useForm` for easy validation and state
+- Custom error messages
+- Responsive design
 
-## Expanding the ESLint configuration
+## Fields
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Name (required)
+- Email (required, valid format)
+- Message (required)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 How to Use
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/finot05/To-do-List.git
+   
+Open the project folder:
+```bash
+cd To-do-List
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Setup
+
+```bash
+npm install
+npm run dev
+
+## Preview
+
+<img width="600" alt="Form Validation - All fields required" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/UNIQUE_IMAGE_ID" />
+<p>This shows that all the 3 fields are required when trying to submit without filling them.</p>
+
+<img width="600" alt="Invalid Email Warning" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/ANOTHER_IMAGE_ID" />
+<p>This shows that the email must be valid.</p>
+
+<img width="600" alt="Submit Button Works" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/ANOTHER_IMAGE_ID_2" />
+<p>This shows the submit button handler is working.</p>
